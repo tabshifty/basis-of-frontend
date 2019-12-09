@@ -40,8 +40,8 @@ Reference-style links use a second set of square brackets, inside which you plac
 
 	This is [an example][id] reference-style link.
 #### EMPHASIS
-Text wrapped with one _*_ or _\__ will be wrapped with an HTML <em> tag  
-Double _*_’s or _\__’s will be wrapped with an HTML <strong> tag.
+Text wrapped with one _\*_ or _\__ will be wrapped with an HTML <em> tag  
+Double _\*_’s or _\__’s will be wrapped with an HTML <strong> tag.
 
 #### Code
 To indicate a span of code, wrap it with backtick quotes _\`_
