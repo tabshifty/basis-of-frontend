@@ -77,6 +77,6 @@ Go straightly to this [link](https://git-scm.com/book/en/v2) for detailed conten
 `git init`  Initialize an existing directory  
 `git clone`  Clone an existing repository, rename like this`git clone http://* newname`  
 `git status`  Check status of files
-`git add`   Track untracked files or stage modified files, this command can add all files in a directiory recursively  
+`git add`   Track untracked files or stage modified files, this command can add all files in a directiory recursively.Think of it more as “add precisely this content to the next commit”  
 `git commit`  commit staged changes, this will launch an editor. Use flag `-m` to commit message inline.The `-a` flag automatically stage every tracked files to skip `git add` part    
-``
+`git rm`  remove tracked files: remove files, commmit changes. If tracked files were modified and staged, use flag `-f` to remove files safely  
